@@ -16,13 +16,13 @@ int main()
     cout<<"Enter elements of first matrix: "<<endl;
      for(i=0;i<m;i++)
     {
-        for(j=0;j<q;j++)
+        for(j=0;j<n;j++)
         {
             cin>>*(*(a+i)+j);
         }
     }
     cout<<"Enter elements of second matrix: "<<endl;
-     for(i=0;i<m;i++)
+     for(i=0;i<p;i++)
     {
         for(j=0;j<q;j++)
         {
